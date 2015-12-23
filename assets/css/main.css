@@ -1,0 +1,29 @@
+
+
+.block-a {
+ width:200px;
+ background:#1ABC9C;
+ float:left;
+ border:1px solid;
+ margin-right:10px;
+}
+.block-b{
+ border:1px solid;
+ background:#F1C40F;
+ width:auto;
+ margin-left: 205px;
+}
+@media screen and (max-width : 768px) {
+	.block-a{
+		background:#95A5A6;
+		width:200px;
+		float:none;
+		margin:5px auto;
+		
+	}
+	.block-b{
+		width:auto;
+		margin-left:0;
+		margin-top:10px;
+	}
+}
